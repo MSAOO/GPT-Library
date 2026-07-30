@@ -171,7 +171,9 @@
       body { background: #fff; color: #000; }
       .book { box-shadow: none; backdrop-filter: none; }
     }
-  </style>
+  
+.book + .book { margin-top: 16px; }
+</style>
 </head>
 <body>
 <main class="wrap">
@@ -182,7 +184,17 @@
 </header>
 <section aria-labelledby="recent-title">
 <h2 class="section-title" id="recent-title">収録論説</h2>
-<a class="book" href="第2部情報とは何か.html">
+<a class="book" href="第1部生物の進化とは何か.html">
+<div class="book-top">
+<div aria-hidden="true" class="cover">進</div>
+<div class="meta">
+<p class="category">進化・生命</p>
+<h2>第1部　生物進化とは何か</h2>
+</div>
+<span aria-hidden="true" class="arrow">›</span>
+</div>
+<p class="description">生物進化を、環境情報の取得・世界モデル・行動・継承という観点から考察する論説。</p>
+</a><a class="book" href="第2部情報とは何か.html">
 <div class="book-top">
 <div aria-hidden="true" class="cover">情</div>
 <div class="meta">
